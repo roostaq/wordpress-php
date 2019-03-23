@@ -3,7 +3,7 @@
 PHP_VER ?= 7.3
 
 BASE_IMAGE_TAG = $(PHP_VER)
-REPO = wodby/wordpress-php
+REPO = roostaq/wordpress-php
 NAME = wordpress-php-$(PHP_VER)
 
 ifeq ($(TAG),)
